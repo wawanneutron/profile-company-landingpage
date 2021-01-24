@@ -1,0 +1,86 @@
+/* versi keseluruhan
+ di mobile ia di desktop ia
+*/
+
+.jumbotron {
+  background-image: url(/images/jumbotron-bg.jpg);
+  background-size: cover;
+  height: 90vh;
+  position: relative;
+  .container {
+    position: absolute;
+    z-index: 1;
+    .content {
+      color: azure;
+      margin-top: 80px;
+      .text1 {
+        font-size: 35px;
+      }
+      .text2 {
+        font-size: 57px;
+        font-weight: 600;
+      }
+      .text3 {
+        font-size: 45px;
+        span {
+          color: crimson;
+          font-weight: 500;
+        }
+      }
+    }
+    .btn-success {
+      border-radius: 40px;
+      text-shadow: none;
+    }
+  }
+}
+
+/* gradasi */
+.jumbotron::after {
+  content: "";
+  width: 100%;
+  height: 80%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+/* desktop version */
+@media (min-width: 770px) {
+  .content {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    margin-left: 10px;
+  }
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  .jumbotron {
+    height: 700px;
+  }
+  .content {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+
+    text-align: center;
+    color: azure;
+    margin-top: 150px;
+    .text1 {
+      font-size: 30px;
+    }
+    .text2 {
+      font-size: 40px;
+      font-weight: 600;
+    }
+    .text3 {
+      font-size: 35px;
+      span {
+        color: crimson;
+        font-weight: 500;
+      }
+    }
+    .btn-success {
+      border-radius: 40px;
+    }
+  }
+}

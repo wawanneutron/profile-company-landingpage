@@ -1,0 +1,42 @@
+.section-skils {
+  padding-top: 85px;
+  padding-bottom: 70px;
+
+  .skils {
+    color: #0f1837;
+    /* garis bawah dengan before after */
+    .text-skils::before {
+      content: "";
+      background: #0f1837;
+      width: 170px;
+      height: 3px;
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .text-skils::after {
+      content: "what i know";
+      padding: 0 10px;
+      font-size: 20px;
+      background: #fff;
+      color: crimson;
+      font-weight: 500;
+      position: absolute;
+      bottom: -18px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .text-skils {
+      font-size: 40px;
+      font-weight: 500;
+      padding-bottom: 10px;
+    }
+    .content-skils {
+      // cursor: pointer;
+    }
+    .row-skils {
+      padding-top: 50px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+// Import Bootstrap 4 Library
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+@import "global";
+@import "fonts";
+@import "navbar";
+@import "home";
+@import "about";
+@import "services";
+@import "skils";
+@import "contact";
+@import "footer";
+
+@import "components/info-panel";
+@import "components/scroll-up";
+@import "components/scrollbar";
