@@ -11194,6 +11194,41 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top: 50px;
 }
 
+.section-skils .skils .row-skils h4 {
+  font-size: 25px;
+}
+
+.section-skils .skils .row-skils .content-skils p {
+  font-size: 18px;
+  line-height: 35px;
+}
+
+@media (max-width: 767px) {
+  .section-skils {
+    padding-top: 85px;
+    padding-bottom: 70px;
+  }
+  .section-skils .skils .text-skils {
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+  .section-skils .skils .row-skils {
+    padding-top: 50px;
+  }
+  .section-skils .skils .row-skils h4 {
+    font-size: 25px;
+  }
+  .section-skils .skils .row-skils .content-skils h4 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .section-skils .skils .row-skils .content-skils p {
+    font-size: 18px;
+    line-height: 35px;
+  }
+}
+
 .section-contact {
   padding-top: 85px;
   padding-bottom: 70px;

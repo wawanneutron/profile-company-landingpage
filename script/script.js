@@ -14,8 +14,25 @@ $(document).ready(function(){
     offset: 75
   });
 
+  /* typing */
+   
+    var typed = new Typed(".typing", {
+        strings: ["Web Programer", "Developer", "Bloger", "Designer Web", "Full Stack Developer", "College"],
+        typedSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    })
     
+     var typed = new Typed(".typed", {
+        strings: ["Web Programer", "Developer", "Bloger", "Designer Web", "Full Stack Developer", "College"],
+        typedSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    })
 })
+
+
+
 
 // when in the scroll, appears icon scroll to top
 $(window).scroll(function () {
@@ -45,3 +62,4 @@ $('.page-scroll').on('click', function(e){
     }, 1500, 'easeInOutExpo');
      e.preventDefault();
 })
+
