@@ -2,6 +2,8 @@
 
 ## Lisensi
 
+link live demo : https://portfolio-neutron.netlify.app/
+
 MIT License
 
 Copyright (c) 2021 Wawan Setiawan
