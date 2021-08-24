@@ -2,7 +2,7 @@
  di mobile ia di desktop ia
 */
 
-.jumbotron {
+#particles-js {
   background-image: url(/images/jumbotron-bg.jpg);
   background-size: cover;
   height: 90vh;
@@ -12,7 +12,7 @@
     z-index: 1;
     .content {
       color: azure;
-      margin-top: 80px;
+      margin-top: 180px;
       .text1 {
         font-size: 35px;
       }
@@ -36,7 +36,7 @@
 }
 
 /* gradasi */
-.jumbotron::after {
+#particles-js::after {
   content: "";
   width: 100%;
   height: 80%;
@@ -56,7 +56,7 @@
 
 /* mobile */
 @media (max-width: 767px) {
-  .jumbotron {
+  #particles-js {
     height: 700px;
   }
   .content {

@@ -10826,7 +10826,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* navbar scroll javascript */
 .sticky {
-  background-color: azure;
+  background-color: #f2f2f2;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -10898,48 +10898,48 @@ a.text-dark:hover, a.text-dark:focus {
 /* versi keseluruhan
  di mobile ia di desktop ia
 */
-.jumbotron {
+#particles-js {
   background-image: url(/images/jumbotron-bg.jpg);
   background-size: cover;
   height: 90vh;
   position: relative;
 }
 
-.jumbotron .container {
+#particles-js .container {
   position: absolute;
   z-index: 1;
 }
 
-.jumbotron .container .content {
+#particles-js .container .content {
   color: azure;
-  margin-top: 80px;
+  margin-top: 180px;
 }
 
-.jumbotron .container .content .text1 {
+#particles-js .container .content .text1 {
   font-size: 35px;
 }
 
-.jumbotron .container .content .text2 {
+#particles-js .container .content .text2 {
   font-size: 57px;
   font-weight: 600;
 }
 
-.jumbotron .container .content .text3 {
+#particles-js .container .content .text3 {
   font-size: 45px;
 }
 
-.jumbotron .container .content .text3 span {
+#particles-js .container .content .text3 span {
   color: crimson;
   font-weight: 500;
 }
 
-.jumbotron .container .btn-success {
+#particles-js .container .btn-success {
   border-radius: 40px;
   text-shadow: none;
 }
 
 /* gradasi */
-.jumbotron::after {
+#particles-js::after {
   content: "";
   width: 100%;
   height: 80%;
@@ -10960,7 +10960,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* mobile */
 @media (max-width: 767px) {
-  .jumbotron {
+  #particles-js {
     height: 700px;
   }
   .content {
@@ -11293,7 +11293,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* info panel */
 .info-panel {
-  background-color: azure;
+  background-color: #fff;
   margin-top: -130px;
   border-radius: 8px;
   -webkit-box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
